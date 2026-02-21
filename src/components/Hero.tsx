@@ -2,16 +2,17 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Code, Download, ChevronDown } from 'lucide-react';
 import { portfolioData } from '../data/portfolioData';
+import HeroBackground from './HeroBackground';
 
 const Hero: React.FC = () => {
     const { profile } = portfolioData;
 
     return (
         <section id="hero" className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
-            {/* Background Decorative Element */}
-            <div className="absolute inset-0 z-0 opacity-20">
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/20 blur-[120px] rounded-full" />
-            </div>
+            <HeroBackground
+                leftImage="/assets/images/Mthobisi Zungu (6).jpg"
+                rightImage="/assets/images/Mthobisi Zungu (7).jpg"
+            />
 
             <div className="section-container relative z-10 text-center">
                 <motion.div

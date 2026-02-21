@@ -1,73 +1,60 @@
-# React + TypeScript + Vite
+# Professional Software Engineering Portfolio 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the source code of my professional portfolio. This project represents a complete migration from a legacy HTML/CSS site to a modern, high-performance web application built with a cutting-edge developer stack.
 
-Currently, two official plugins are available:
+## 🪐 Mission Brief
+As a **Junior Software Engineer** with a background in **Physical Sciences**, I build software with scientific precision and a focus on robust architectures. This portfolio showcases my journey through full-stack development, data engineering, and automation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Tech Stack
+- **Framework:** [React 19](https://react.dev/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS 4.0](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Deployment:** [GitHub Pages](https://pages.github.com/)
+- **Contact Service:** [Web3Forms](https://web3forms.com/)
 
-## React Compiler
+## 🔋 Key Features
+- **Modern UI/UX:** A glassmorphic dark-theme design with responsive layouts.
+- **Dynamic Experience Timeline:** Visual representation of professional growth.
+- **Interactive Project Showcase:** Featured project cards with status badges and deep-link integration.
+- **Advanced Certification Tracker:** A unique progress-tracking system for current and upcoming certifications (e.g., ALX Data Engineering).
+- **Fully Functional Contact Engine:** Integrated API for direct-to-inbox communication with anti-spam protection.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🤸 Setup & Exploration
 
-## Expanding the ESLint configuration
+### Prerequisites
+- Node.js (v18+)
+- npm
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/SherifHood680/Mthobisi-Zungu-Portfolio.git
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+# Navigate to the directory
+cd Mthobisi-Zungu-Portfolio
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Install dependencies
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Development
+```bash
+npm run dev
 ```
+
+### Deployment
+To deploy the latest version to GitHub Pages:
+```bash
+npm run deploy
+```
+
+## 🚀 Future Orbitals
+- [ ] Integration with Headless CMS for project management.
+- [ ] Light/Dark mode toggle implementation.
+- [ ] Blog section for technical walkthroughs.
+
+---
+Built with ❤️ by [Mthobisi Innocent Zungu](https://github.com/SherifHood680)

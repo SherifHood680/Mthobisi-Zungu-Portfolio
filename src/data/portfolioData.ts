@@ -4,8 +4,8 @@ export const portfolioData = {
         middleName: "INNOCENT",
         lastName: "ZUNGU",
         fullName: "Mthobisi Innocent Zungu",
-        title: "Junior Software Engineer",
-        subTitle: "BSc Physical Sciences",
+        title: "BSc graduate(Physical Sciences)",
+        subTitle: "Junior Software Engineer",
         tagline: "Building robust software solutions with a scientist's precision",
         email: "mthobisiinnocent373@gmail.com",
         phone: "+27 65 807 7607",
@@ -13,15 +13,15 @@ export const portfolioData = {
         linkedin: "https://linkedin.com/in/yourprofile",
         github: "https://github.com/SherifHood680",
         resumeUrl: "/assets/documents/MI_ZUNGU_CV.pdf",
-        avatarUrl: "/assets/images/profile.jpeg",
+        avatarUrl: "/assets/images/Mthobisi Zungu (8).jpg",
     },
     about: [
-        "I'm a software engineer with a BSc in Physical Sciences (Mathematics & Physics), bringing a rigorous analytical approach to building reliable, high-quality software. My scientific background equips me with strong problem-solving skills and a methodical mindset that I apply across the full software development lifecycle.",
-        "I specialize in full-stack development with proficiency in Python and JavaScript, focusing on backend systems, API integration, database design, and modern front-end interfaces. Currently expanding my expertise in TypeScript, Node.js, and React to build even more robust and scalable applications.",
-        "Driven by curiosity and a passion for solving real-world challenges, I thrive in collaborative environments where I can analyze requirements, troubleshoot complex issues, and deliver measurable impact. I'm committed to continuous learning and innovation, always seeking to refine my craft and contribute to forward-thinking teams."
+        "I bridge the gap between scientific rigor and software engineering. With a BSc in Physical Sciences (Mathematics & Physics), I don't just write code; I architect systems centered on first-order principles. My background in the physical sciences has instilled a methodical precision and an analytical lens that allows me to decompose complex organizational challenges into elegant, scalable technical solutions.",
+        "My expertise lies in building resilient backend architectures and high-performance interfaces. From developing automated enterprise-level attendance systems integrated with Microsoft Graph API to engineering AI-driven career platforms, I focus on creating software that is as robust as it is efficient. I thrive at the intersection of Python's power and JavaScript's flexibility, always with an eye toward type-safety and system maintainability.",
+        "What sets me apart is a commitment to depth. Driven by a deep-seated curiosity about how systems function at scale, I bring a scientist's discipline to the full software development lifecycle—from initial requirements analysis to testing and deployment. I am looking to contribute to forward-thinking teams where precision, logic, and rapid innovation are the standard."
     ],
     stats: [
-        { label: "Years Experience", value: "2+" },
+        { label: "Years Experience", value: "0-2+" },
         { label: "Core Technologies", value: "Python & JS" },
         { label: "Development", value: "Full-Stack" },
         { label: "Available On-Site", value: "Pretoria, SA" }
@@ -35,27 +35,27 @@ export const portfolioData = {
         {
             category: "Frameworks & Libraries",
             icon: "Layers",
-            items: ["React", "TailwindCSS", "GSAP", "REST APIs"]
+            items: ["React", "TailwindCSS", "GSAP", "REST APIs", "puter.js", "react router", "vite", "framer motion", "taipy"]
         },
         {
             category: "Databases & Data",
             icon: "Database",
-            items: ["SQL", "HeidiSQL", "Database Design", "CRUD Operations"]
+            items: ["SQL", "HeidiSQL", "Database Design", "CRUD Operations", "Supabase", "PostgreSQL"]
         },
         {
             category: "Tools & Platforms",
             icon: "Wrench",
-            items: ["VS Code", "PyCharm", "GitHub", "Google Colab"]
+            items: ["VS Code", "intellij jetbrains tools", "GitHub", "Google Colab", "Git", "Postman", "Figma", "Asana", "Google Antigravity"]
         },
         {
             category: "Currently Learning",
             icon: "Lightbulb",
-            items: ["TypeScript", "Node.js", "Express.js", "OOP in Java"]
+            items: ["TypeScript", "Node.js", "Express.js", "Django", "data engineering"]
         },
         {
             category: "Core Competencies",
             icon: "CheckCircle",
-            items: ["API Design", "Database Design", "Problem Solving", "TDD"]
+            items: ["API Design", "Database Design", "Problem Solving", "system design", "data pipelines", "SDLC", "Agile Methodologies", "TDD"]
         }
     ],
     projects: [

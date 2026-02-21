@@ -12,8 +12,8 @@ export const portfolioData = {
         location: "Pretoria, Gauteng, South Africa",
         linkedin: "https://linkedin.com/in/yourprofile",
         github: "https://github.com/SherifHood680",
-        resumeUrl: "/assets/documents/MI_ZUNGU_CV.pdf",
-        avatarUrl: "/assets/images/Mthobisi Zungu (8).jpg",
+        resumeUrl: "assets/documents/MI_ZUNGU_CV.pdf",
+        avatarUrl: "assets/images/Mthobisi Zungu (8).jpg",
     },
     about: [
         "I bridge the gap between scientific rigor and software engineering. With a BSc in Physical Sciences (Mathematics & Physics), I don't just write code; I architect systems centered on first-order principles. My background in the physical sciences has instilled a methodical precision and an analytical lens that allows me to decompose complex organizational challenges into elegant, scalable technical solutions.",
@@ -62,14 +62,14 @@ export const portfolioData = {
         {
             title: "Automated Attendance Register System",
             description: "Enterprise-level attendance tracking system built at Mindworx Academy. Integrated Microsoft Graph API for real-time data retrieval, designed relational database schemas, and developed both backend automation pipelines and frontend interfaces.",
-            image: "/assets/images/project1.jpg",
+            image: "assets/images/project1.jpg",
             tags: ["Python", "JavaScript", "HTML5 & CSS3", "SQL", "MS Graph API", "REST APIs"],
             featured: true
         },
         {
             title: "CareerOrbit 🪐",
             description: "An AI-powered career intelligence platform that analyzes resumes with Senior Recruiter scrutiny. Leveraging Puter.js and GPT-4o, it provides ATS optimization, mission-control dashboards, and actionable feedback to bridge the gap to your dream role.",
-            image: "/assets/images/career_orbit.webp",
+            image: "assets/images/career_orbit.webp",
             tags: ["React 19", "Puter.js", "GPT-4o", "Supabase", "Tailwind CSS 4.0", "Framer Motion"],
             github: "https://github.com/SherifHood680/Career_Orbit",
             demo: "https://career-orbit-seven.vercel.app/"
@@ -77,14 +77,14 @@ export const portfolioData = {
         {
             title: "Task Master - CRUD Task Manager",
             description: "Full-featured task management application with create, read, update, and delete operations. Features task categorization, priority levels, and filtering. Implements local storage for data persistence.",
-            image: "/assets/images/project3.jpg",
+            image: "assets/images/project3.jpg",
             tags: ["HTML5 & CSS3", "JavaScript ES6+", "Local Storage API"],
             github: "#"
         },
         {
             title: "Physics Problem Solver",
             description: "Interactive calculator for common physics equations (kinematics, dynamics, energy). Features step-by-step solution breakdowns and unit conversions. Combines technical skills with domain expertise in physical sciences.",
-            image: "/assets/images/project4.jpg",
+            image: "assets/images/project4.jpg",
             tags: ["HTML5 & CSS3", "JavaScript ES6+", "Math.js"],
             github: "#"
         }

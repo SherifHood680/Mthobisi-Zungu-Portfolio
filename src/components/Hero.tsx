@@ -10,8 +10,8 @@ const Hero: React.FC = () => {
     return (
         <section id="hero" className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
             <HeroBackground
-                leftImage="/assets/images/Mthobisi Zungu (6).jpg"
-                rightImage="/assets/images/Mthobisi Zungu (7).jpg"
+                leftImage="assets/images/Mthobisi Zungu (6).jpg"
+                rightImage="assets/images/Mthobisi Zungu (7).jpg"
             />
 
             <div className="section-container relative z-10 text-center">

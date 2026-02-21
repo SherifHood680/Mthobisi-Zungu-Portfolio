@@ -1,0 +1,79 @@
+MTHOBISI INNOCENT ZUNGU
+Junior Software Engineer
+
+CONTACT INFORMATION
+Email: mthobisiinnocent373@gmail.com
+Phone: +27 65 807 7607
+Location: Pretoria, Gauteng, South Africa
+LinkedIn: [Your LinkedIn Profile]
+GitHub: [Your GitHub Profile]
+
+PROFESSIONAL SUMMARY
+Software engineer with a BSc in Physical Sciences (Mathematics & Physics), bringing a rigorous analytical approach to building reliable, high-quality software. Specializing in full-stack development with proficiency in Python and JavaScript, focusing on backend systems, API integration, database design, and modern front-end interfaces.
+
+TECHNICAL SKILLS
+Programming Languages: Python, JavaScript, HTML5, CSS3, SQL
+Frameworks & Libraries: React (beginner), TailwindCSS, GSAP, REST APIs
+Databases: SQL, HeidiSQL, Database Design, CRUD Operations
+Tools & Platforms: VS Code, PyCharm, GitHub, Google Colab
+Currently Learning: TypeScript, Node.js, Express.js, OOP in Java
+Core Competencies: API Design & Integration, Database Design, Problem Solving, TDD
+
+PROFESSIONAL EXPERIENCE
+
+Junior Software Engineer / Trainee Developer
+Mindworx Academy & Consulting | July 2025 - Present
+- Contributed to design, development, and testing of Automated Attendance Register system
+- Analyzed system requirements and implemented technical solutions aligned with business needs
+- Developed backend data pipelines and automation scripts using Python
+- Built responsive frontend components using JavaScript, HTML5, and CSS3
+- Integrated Microsoft Graph API for real-time attendance data retrieval
+- Designed and maintained relational database schemas using SQL (HeidiSQL)
+- Collaborated with cross-functional teams and produced technical documentation
+
+Interim Residence Manager
+Sefako Makgatho Health Sciences University | August 2022 - April 2023
+- Demonstrated leadership, professionalism, and accountability in regulated environment
+- Analyzed operational challenges and implemented structured solutions
+- Compiled detailed reports and communicated effectively with diverse stakeholders
+- Strengthened teamwork, time management, and organizational skills
+
+EDUCATION
+
+Occupational Certificate: Software Engineer (NQF Level 6)
+Mindworx Academy | Expected 2026 (In Progress)
+
+Bachelor of Science (BSc) - Mathematics & Physical Sciences
+Sefako Makgatho Health Sciences University | Graduated 2023
+
+National Senior Certificate
+Mlokothwa High School | Graduated 2016
+
+CERTIFICATIONS
+- Cisco Networking Academy: Cybersecurity Essentials
+- Cisco Networking Academy: Computer Hardware Basics
+- Cisco Networking Academy: Networking Fundamentals
+- Cisco Networking Academy: IoT & Digital Transformation
+- Cisco Networking Academy: Engaging Stakeholders
+- freeCodeCamp: College Algebra with Python
+
+PROJECTS
+
+Automated Attendance Register System
+- Enterprise-level attendance tracking system with Microsoft Graph API integration
+- Technologies: Python, JavaScript, HTML5, CSS3, SQL, REST APIs
+
+Real-Time Weather Dashboard (In Development)
+- Interactive weather application with OpenWeatherMap API integration
+- Technologies: HTML5, CSS3, JavaScript ES6+, Chart.js
+
+Task Master - CRUD Task Manager (In Development)
+- Full-featured task management application with local storage persistence
+- Technologies: HTML5, CSS3, JavaScript ES6+, Local Storage API
+
+Physics Problem Solver (In Development)
+- Interactive calculator for physics equations with step-by-step solutions
+- Technologies: HTML5, CSS3, JavaScript ES6+, Math.js
+
+---
+NOTE: This is a placeholder CV. Please replace with your actual formatted CV/Resume PDF.

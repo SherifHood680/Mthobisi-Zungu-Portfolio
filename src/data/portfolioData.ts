@@ -61,6 +61,7 @@ export const portfolioData = {
     projects: [
         {
             title: "Automated Attendance Register System",
+            category: "Software Engineering",
             description: "Enterprise-level attendance tracking system built at Mindworx Academy. Integrated Microsoft Graph API for real-time data retrieval, designed relational database schemas, and developed both backend automation pipelines and frontend interfaces.",
             image: "assets/images/project1.jpg",
             tags: ["Python", "JavaScript", "HTML5 & CSS3", "SQL", "MS Graph API", "REST APIs"],
@@ -68,6 +69,7 @@ export const portfolioData = {
         },
         {
             title: "CareerOrbit 🪐",
+            category: "Software Engineering",
             description: "An AI-powered career intelligence platform that analyzes resumes with Senior Recruiter scrutiny. Leveraging Puter.js and GPT-4o, it provides ATS optimization, mission-control dashboards, and actionable feedback to bridge the gap to your dream role.",
             image: "assets/images/career_orbit.webp",
             tags: ["React 19", "Puter.js", "GPT-4o", "Supabase", "Tailwind CSS 4.0", "Framer Motion"],
@@ -76,6 +78,7 @@ export const portfolioData = {
         },
         {
             title: "Task Master - CRUD Task Manager",
+            category: "Software Engineering",
             description: "Full-featured task management application with create, read, update, and delete operations. Features task categorization, priority levels, and filtering. Implements local storage for data persistence.",
             image: "assets/images/project3.jpg",
             tags: ["HTML5 & CSS3", "JavaScript ES6+", "Local Storage API"],
@@ -83,10 +86,19 @@ export const portfolioData = {
         },
         {
             title: "Physics Problem Solver",
+            category: "Software Engineering",
             description: "Interactive calculator for common physics equations (kinematics, dynamics, energy). Features step-by-step solution breakdowns and unit conversions. Combines technical skills with domain expertise in physical sciences.",
             image: "assets/images/project4.jpg",
             tags: ["HTML5 & CSS3", "JavaScript ES6+", "Math.js"],
             github: "#"
+        },
+        {
+            title: "Coming Soon",
+            category: "Data Projects",
+            description: "Advanced data engineering and analytics projects are currently in development. This section will feature end-to-end data pipelines, predictive models, and interactive data visualizations built with Python, SQL, and modern data stacks.",
+            image: "assets/images/og-image.jpg",
+            tags: ["Python", "SQL", "Data Engineering", "Machine Learning"],
+            isPlaceholder: true
         }
     ],
     experience: [

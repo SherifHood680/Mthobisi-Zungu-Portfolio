@@ -82,7 +82,8 @@ export const portfolioData = {
             description: "Full-featured task management application with create, read, update, and delete operations. Features task categorization, priority levels, and filtering. Implements local storage for data persistence.",
             image: "assets/images/project3.jpg",
             tags: ["HTML5 & CSS3", "JavaScript ES6+", "Local Storage API"],
-            github: "#"
+            github: "https://github.com/SherifHood680/Task_Manager",
+            demo: "https://task-manager-kohl-gamma.vercel.app/"
         },
         {
             title: "Physics Problem Solver",

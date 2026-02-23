@@ -11,7 +11,7 @@ const Projects: React.FC = () => {
     const filteredProjects = portfolioData.projects.filter(project => project.category === activeCategory);
 
     return (
-        <section id="projects" className="bg-background-light/30">
+        <section id="projects" className="bg-background-light/30 overflow-hidden">
             <div className="section-container">
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-16">
                     <div className="flex items-center gap-4">

@@ -90,7 +90,8 @@ export const portfolioData = {
             description: "Interactive calculator for common physics equations (kinematics, dynamics, energy). Features step-by-step solution breakdowns and unit conversions. Combines technical skills with domain expertise in physical sciences.",
             image: "assets/images/project4.jpg",
             tags: ["HTML5 & CSS3", "JavaScript ES6+", "Math.js"],
-            github: "#"
+            github: "https://github.com/SherifHood680/Physics-Solver",
+            demo: "https://physics-solver.vercel.app/history"
         },
         {
             title: "Coming Soon",

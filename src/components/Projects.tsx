@@ -29,8 +29,8 @@ const Projects: React.FC = () => {
                                 key={cat}
                                 onClick={() => setActiveCategory(cat)}
                                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${activeCategory === cat
-                                        ? 'bg-primary text-background-dark shadow-lg'
-                                        : 'text-slate-400 hover:text-white'
+                                    ? 'bg-primary text-background-dark shadow-lg'
+                                    : 'text-slate-400 hover:text-white'
                                     }`}
                             >
                                 {cat}
@@ -70,17 +70,17 @@ const Projects: React.FC = () => {
                             {/* Content side */}
                             <div className={`w-full lg:w-2/5 ${i % 2 === 1 ? 'lg:text-right' : ''}`}>
                                 <p className="font-mono text-primary text-sm mb-2">{project.category}</p>
-                                <h3 className="text-3xl font-black mb-6 hover:text-primary transition-colors cursor-default">
+                                <h3 className="text-2xl md:text-3xl font-black mb-4 hover:text-primary transition-colors cursor-default">
                                     {project.title}
                                 </h3>
-                                <div className={`p-6 bg-background-light/80 backdrop-blur-sm rounded-xl border border-slate-800 shadow-2xl mb-6 relative z-10 ${i % 2 === 1 ? 'lg:-ml-20' : 'lg:-mr-20'}`}>
-                                    <p className="text-slate-400 leading-relaxed">
+                                <div className={`p-5 md:p-6 bg-background-light/80 backdrop-blur-sm rounded-xl border border-slate-800 shadow-2xl mb-6 relative z-10 ${i % 2 === 1 ? 'lg:-ml-12' : 'lg:-mr-12'}`}>
+                                    <p className="text-sm md:text-base text-slate-400 leading-relaxed">
                                         {project.description}
                                     </p>
                                 </div>
-                                <div className={`flex flex-wrap gap-x-4 gap-y-2 mb-8 ${i % 2 === 1 ? 'justify-end' : ''}`}>
+                                <div className={`flex flex-wrap gap-x-3 gap-y-2 mb-6 ${i % 2 === 1 ? 'justify-end' : ''}`}>
                                     {project.tags.map((tag: string) => (
-                                        <span key={tag} className="text-xs font-mono text-slate-500 border-b border-slate-800 pb-0.5">{tag}</span>
+                                        <span key={tag} className="text-[10px] md:text-xs font-mono text-slate-500 border-b border-slate-800 pb-0.5">{tag}</span>
                                     ))}
                                 </div>
                                 <div className={`flex gap-4 ${i % 2 === 1 ? 'justify-end' : ''}`}>

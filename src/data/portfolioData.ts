@@ -92,7 +92,7 @@ export const portfolioData = {
             image: "assets/images/project4.jpg",
             tags: ["HTML5 & CSS3", "JavaScript ES6+", "Math.js"],
             github: "https://github.com/SherifHood680/Physics-Solver",
-            demo: "https://physics-solver.vercel.app/history"
+            demo: "https://physics-solver.vercel.app/"
         },
         {
             title: "Coming Soon",

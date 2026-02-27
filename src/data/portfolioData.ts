@@ -4,9 +4,9 @@ export const portfolioData = {
         middleName: "INNOCENT",
         lastName: "ZUNGU",
         fullName: "Mthobisi Innocent Zungu",
-        title: "BSc graduate(Physical Sciences)",
-        subTitle: "Junior Software Engineer",
-        tagline: "Building robust software solutions with a scientist's precision",
+        title: "Full-Stack Software Engineer",
+        subTitle: "BSc (Mathematical & Physical Sciences)",
+        tagline: "Engineering robust software solutions with the precision of a scientist",
         email: "mthobisiinnocent373@gmail.com",
         phone: "+27 65 807 7607",
         location: "Pretoria, Gauteng, South Africa",
@@ -16,19 +16,19 @@ export const portfolioData = {
         avatarUrl: "assets/images/Mthobisi Zungu (8).jpg",
     },
     about: [
-        "I bridge the gap between scientific rigor and software engineering. With a BSc in Physical Sciences (Mathematics & Physics), I don't just write code; I architect systems centered on first-order principles. My background in the physical sciences has instilled a methodical precision and an analytical lens that allows me to decompose complex organizational challenges into elegant, scalable technical solutions.",
-        "My expertise lies in building resilient backend architectures and high-performance interfaces. From developing automated enterprise-level attendance systems integrated with Microsoft Graph API to engineering AI-driven career platforms, I focus on creating software that is as robust as it is efficient. I thrive at the intersection of Python's power and JavaScript's flexibility, always with an eye toward type-safety and system maintainability.",
-        "What sets me apart is a commitment to depth. Driven by a deep-seated curiosity about how systems function at scale, I bring a scientist's discipline to the full software development lifecycle—from initial requirements analysis to testing and deployment. I am looking to contribute to forward-thinking teams where precision, logic, and rapid innovation are the standard."
+        "I bridge the gap between scientific rigor and software engineering. With a BSc in Physical Sciences (Mathematics & Physics), I don't just write code; I architect systems centered on first-order principles. My approach involves decomposing complex organizational challenges into elegant, scalable technical solutions that are built to last.",
+        "My expertise lies in engineering resilient backend architectures and high-performance interfaces. From developing automated enterprise-level attendance systems integrated with Microsoft Graph API to architecting AI-driven platforms, I focus on creating software that is as robust as it is efficient. I thrive at the intersection of Python's power and JavaScript's flexibility, always with an eye toward type-safety and system maintainability.",
+        "What sets me apart is a commitment to engineering depth. Driven by a deep-seated curiosity about how systems function at scale, I bring a scientist's discipline to the full software development lifecycle—from initial requirements analysis to testing and deployment. I am looking to contribute to forward-thinking teams where precision, logic, and architectural excellence are the standard."
     ],
     stats: [
-        { label: "Years Experience", value: "0-2+" },
+        { label: "Experience", value: "Software Engineer" },
         { label: "Core Technologies", value: "Python & JS" },
-        { label: "Development", value: "Full-Stack" },
+        { label: "Engineering", value: "Full-Stack" },
         { label: "Available On-Site", value: "Pretoria, SA" }
     ],
     skills: [
         {
-            category: "Programming Languages",
+            category: "Programming & Logic",
             icon: "Code",
             items: ["Python", "JavaScript", "HTML5", "CSS3", "SQL"]
         },
@@ -106,9 +106,9 @@ export const portfolioData = {
     experience: [
         {
             company: "Mindworx Academy & Consulting",
-            role: "Junior Software Engineer / Trainee Developer",
+            role: "Software Engineer",
             period: "July 2025 - Present",
-            description: "Contributing to design, development, and testing of enterprise software solutions through internal pods and contract work.",
+            description: "Engineering and maintaining enterprise-level software solutions, focusing on backend automation, API integration, and robust system design.",
             responsibilities: [
                 "Contributed to design, development, and testing of Automated Attendance Register system",
                 "Analyzed system requirements and implemented technical solutions aligned with business needs",

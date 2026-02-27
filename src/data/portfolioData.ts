@@ -4,8 +4,8 @@ export const portfolioData = {
         middleName: "INNOCENT",
         lastName: "ZUNGU",
         fullName: "Mthobisi Innocent Zungu",
-        title: "BSc graduate(Physical Sciences)",
-        subTitle: "Junior Software Engineer",
+        title: "BSc graduate Physical Sciences",
+        subTitle: "Software Engineer",
         tagline: "Building robust software solutions with a scientist's precision",
         email: "mthobisiinnocent373@gmail.com",
         phone: "+27 65 807 7607",
@@ -16,7 +16,7 @@ export const portfolioData = {
         avatarUrl: "assets/images/Mthobisi Zungu (8).jpg",
     },
     about: [
-        "I bridge the gap between scientific rigor and software engineering. With a BSc in Physical Sciences (Mathematics & Physics), I don't just write code; I architect systems centered on first-order principles. My background in the physical sciences has instilled a methodical precision and an analytical lens that allows me to decompose complex organizational challenges into elegant, scalable technical solutions.",
+        "I bridge the gap between scientific rigor and software engineering. With a BSc in Physical Sciences, I don't just write code; I architect systems centered on first-order principles. My background in the physical sciences has instilled a methodical precision and an analytical lens that allows me to decompose complex organizational challenges into elegant, scalable technical solutions.",
         "My expertise lies in building resilient backend architectures and high-performance interfaces. From developing automated enterprise-level attendance systems integrated with Microsoft Graph API to engineering AI-driven career platforms, I focus on creating software that is as robust as it is efficient. I thrive at the intersection of Python's power and JavaScript's flexibility, always with an eye toward type-safety and system maintainability.",
         "What sets me apart is a commitment to depth. Driven by a deep-seated curiosity about how systems function at scale, I bring a scientist's discipline to the full software development lifecycle—from initial requirements analysis to testing and deployment. I am looking to contribute to forward-thinking teams where precision, logic, and rapid innovation are the standard."
     ],
@@ -142,7 +142,7 @@ export const portfolioData = {
         },
         {
             school: "Sefako Makgatho Health Sciences University",
-            degree: "Bachelor of Science (BSc) in Mathematics & Physical Sciences",
+            degree: "Bachelor of Science (BSc) in Physical Sciences",
             period: "Graduated 2023",
             status: "Completed"
         },

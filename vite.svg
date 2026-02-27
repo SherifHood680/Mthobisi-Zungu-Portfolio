@@ -1,0 +1,36 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brand-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Main Background Container -->
+  <rect width="512" height="512" rx="128" fill="#0f172a" />
+  
+  <!-- Abstract Geometric Shape -->
+  <path d="M256 80 L420 180 L420 332 L256 432 L92 332 L92 180 Z" fill="none" stroke="url(#brand-grad)" stroke-width="24" stroke-linejoin="round"/>
+  
+  <!-- Centered Initials -->
+  <text 
+    x="50%" 
+    y="51%" 
+    dominant-baseline="middle" 
+    text-anchor="middle" 
+    font-family="system-ui, -apple-system, sans-serif" 
+    font-weight="900" 
+    font-size="160" 
+    fill="white"
+    style="letter-spacing: -4px;"
+  >
+    MZ
+  </text>
+  
+  <!-- Subtle accent dots -->
+  <circle cx="256" cy="80" r="12" fill="#818cf8"/>
+  <circle cx="420" cy="180" r="12" fill="#818cf8"/>
+  <circle cx="420" cy="332" r="12" fill="#c084fc"/>
+  <circle cx="256" cy="432" r="12" fill="#c084fc"/>
+  <circle cx="92" cy="332" r="12" fill="#c084fc"/>
+  <circle cx="92" cy="180" r="12" fill="#818cf8"/>
+</svg>

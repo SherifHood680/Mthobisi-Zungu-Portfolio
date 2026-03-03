@@ -56,9 +56,10 @@ const Navbar: React.FC = () => {
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ delay: 0.7 }}
                         className="btn btn-primary py-2 text-sm"
-                        download
+                        target="_blank"
+                        rel="noopener noreferrer"
                     >
-                        Resume
+                        View Resume
                     </motion.a>
                 </div>
 
@@ -95,9 +96,10 @@ const Navbar: React.FC = () => {
                         <a
                             href="/assets/documents/MI_ZUNGU_CV.pdf"
                             className="btn btn-primary px-10 py-4 text-lg"
-                            download
+                            target="_blank"
+                            rel="noopener noreferrer"
                         >
-                            Resume
+                            View Resume
                         </a>
                     </motion.div>
                 )}
